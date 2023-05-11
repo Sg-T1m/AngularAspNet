@@ -1,0 +1,18 @@
+<div class="CardProduct">
+  <div class="CardProductContainer">
+    <div>
+      <img
+      [src]="Produck?.Img"
+        alt="Здесь картинка"
+      />
+    </div>
+    <div>
+      <p class="CardProductText">
+        {{Produck?.Name}}
+      </p>
+      <p>Производитель: {{Produck?.Manufacturers?.Name}} </p>
+    </div>
+    
+  </div>
+  <div class="CardProductCount">Цена: {{Produck?.Price}}</div>
+</div>
